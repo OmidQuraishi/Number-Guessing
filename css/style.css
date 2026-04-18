@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "jetbrain mono", sans-serif;
+  font-size: 62.5%;
+}
+body {
+  background-color: #212049;
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+/* game box */
+.game-box {
+  background-color: #fff;
+  padding: 4rem 2rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  width: 50rem;
+}
+/* game header */
+.game-header {
+  font-size: 2rem;
+  text-align: center;
+  display: grid;
+  gap: 1rem;
+}
+/* game-body */
+.game-body {
+  display: flex;
+  gap: 1rem;
+}
+.game-body input,
+button {
+  padding: 2rem;
+  text-align: center;
+  font-size: 3rem;
+  width: 13rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #f3f3f3;
+}
+/* game body button */
+.game-body button {
+  background-color: #212049;
+  color: #fff;
+}
+
+/* game footer */
+.game-footer p {
+  font-size: 2rem;
+}
