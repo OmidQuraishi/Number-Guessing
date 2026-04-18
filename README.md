@@ -26,3 +26,4 @@ Working with conditional logic
 Handling user input and validation
 Updating the UI dynamically based on game state
 Managing game flow and state
+Functions, conditionals
