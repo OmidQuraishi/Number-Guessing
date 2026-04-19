@@ -1,4 +1,4 @@
-![The Gussing game](Screenshot%20From%202026-04-18%2021-08-02.png)
+![The Gussing game](Screenshot%20From%202026-04-19%2010-18-48.png)
 
 # JavaScript Number Guessing Game
 

@@ -13,14 +13,17 @@ function checkNumber() {
 
   button.addEventListener("click", () => {
     if (randomNumber == input.value) {
-      console.log("hello");
+      tip.textContent = "Well done you win the game";
     } else if (randomNumber > input.value) {
+      tip.textContent = "your Guess is lower";
       chance--;
       chancetext.textContent = chance;
     } else if (randomNumber < input.value) {
+      tip.textContent = "your Guess is higher";
       chance--;
       chancetext.textContent = chance;
     }
+    console.log(randomNumber);
   });
   chancetext.textContent = chance;
 }
